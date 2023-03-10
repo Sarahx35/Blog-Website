@@ -9,13 +9,18 @@
 </style>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
- <nav> 
-<div class="w3-top w3-bar w3-light-blue">
-<a href="/index.html" class="w3-bar-item w3-button">Home</a>
-<a href="/Pages/About.html" class="w3-bar-item w3-button">About</a>
-<a href="/Pages/Blog.html" class="w3-bar-item w3-button">Blog</a>
-<a href="/Pages/Contact.html" class="w3-bar-item w3-button">Contact</a>
-</div>
+<nav>
+  <!-- Navigation (Sits on top) -->
+<div class="w3-top w3-bar w3-light-blue w3-padding w3-card w3-wide">
+  <a href="/index.html" class="w3-bar-item w3-button">The Makeup Foodie</a>
+  
+  <!-- Right-sided navbar links. Hide them on small screens -->
+  <div class="w3-right w3-hide-small">
+  <a href="/Pages/About.html" class="w3-bar-item w3-button">About</a>
+  <a href="/Pages/Blog.html" class="w3-bar-item w3-button">Blog</a>
+  <a href="/Pages/Contact.html" class="w3-bar-item w3-button">Contact</a>
+  </div>
+  </div>
 </nav>
 
 <div>
@@ -30,6 +35,26 @@
 w3.slideshow(".slides", 1500);
 </script>
 </div>
+
+<!-- About -->
+<div id="about" class="w3-padding-top-64">
+  <div class="w3-row">
+  
+  <div class="w3-half w3-padding-large w3-hide-small">
+  <img src="/Images/ole-and-steen-box-2.jpg" class="w3-round w3-image w3-opacity-min" alt="Ole and Steen box in front of Tower Bridge" style="width:100%">
+  </div>
+  
+  <div class="w3-half w3-padding-large">
+  <h1 class="w3-center">About The Makeup Foodie</h1><br>
+  <h5 class="w3-center">Started in 2017</h5>
+  <p class="w3-large">
+  Since I was young, I have always had a sweet tooth and have over the years tried many cakes.</p>
+  <p class="w3-large w3-text-grey w3-hide-medium">
+  A few years ago I realised that my trips to cafes and bakeries always come with a fun story that is as sweet as my cake. Here you will find a diary of my most memorable trips and I hope you will find inspiraton to go make your own memories at these cafes/bakeries. </p>
+  </div>
+
+  </div>
+  </div>
 
 <div id="about" class="w3-container w3-padding-32">
   <h1 class="w3-center">Lifestyle of Food and Glam</h1>
@@ -60,6 +85,20 @@ w3.slideshow(".slides", 1500);
     </div>
     </div>
 
+
+    <div id="contact" class="w3-container w3-center w3-padding-32">
+      <h2 class="w3-wide">CONTACT</h2>
+      Instagram: <a href="https://www.instagram.com/the_makeup_foodie_/">@the_makeup_foodie_</a><br>
+      <p class="w3-opacity w3-center"><i>Questions? Drop me a note!</i></p>
+      
+      <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input" type="text" placeholder="Message" required name="Message">
+      <br>
+      <button class="w3-button w3-light-blue w3-hover-white" type="submit">SEND</button>
+      </form>
+      </div>
 
 </body>
 </html>
