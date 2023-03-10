@@ -4,42 +4,62 @@
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="/CSS/index.css">
 <style>
 </style>
-<script src=""></script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
+ <nav> 
+<div class="w3-top w3-bar w3-light-blue">
+<a href="/index.html" class="w3-bar-item w3-button">Home</a>
+<a href="/Pages/About.html" class="w3-bar-item w3-button">About</a>
+<a href="/Pages/Blog.html" class="w3-bar-item w3-button">Blog</a>
+<a href="/Pages/Contact.html" class="w3-bar-item w3-button">Contact</a>
+</div>
+</nav>
 
-<img src="/Images/img_snowtops.jpeg" alt="LA" style="width:100%">
-
-<div class="w3-container w3-teal">
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<div>
+  <img src="/Images/The Makeup Foodie-logos_.jpeg" height="150" width="150" class="header-logo">
 </div>
 
-<div class="w3-row">
+<div class="slideshow">
+<img class="slides" src="/Images/Jubilee Chocolate Cupcake.jpg" height="580em" width="500em">
+<img class="slides" src="/Images/cinnamon-social-3.jpg"  height="580em" width="500em">
+<img class="slides" src="/Images/Cinnamon Bun.jpg"  height="580em" width="500em">
+<script>
+w3.slideshow(".slides", 1500);
+</script>
+</div>
 
+<div id="about" class="w3-container w3-padding-32">
+  <h1 class="w3-center">Lifestyle of Food and Glam</h1>
+  <p class="w3-center">Blog posts on the most successful and upcoming trends of make-up and food.</p>
+  </div>
+  
+  <div id="members" class="w3-container w3-padding-32">
+    <div class="w3-row w3-center">
+    
     <div class="w3-third">
-    <img src="/Images/chocolate_cake.jpeg" alt="Name1" style="width:100%">
+    <a href="Pages/Blog.html"><img src="/Images/Jubilee Chocolate Cupcake.jpg" alt="Jubilee Chocolate Cake" style="width:60%"></a>
+    <p><a href="/Pages/Blog.html">Cupcake's Royal Approval</p></a>
+    <p>The Diamond Jubilee - a day of celebrating the Queen and Chocolate Cupcakes… <a href="/Pages/Blog.html">Continue reading Chocolate Cupcake's Royal Approval→</a></p>
     </div>
     
     <div class="w3-third">
-    <img src="/Images/lemon_drizzle_cake.jpeg" alt="Name2" style="width:100%">
+    <a href="/Pages/Blog.html"><img src="/Images/cinnamon-social-3.jpg" alt="Ole and Steen's Cinnamon Social" style="width:60%"></a>
+    <p><a href="/Pages/Blog.html">Oleha to the New Kid on the Block</a></p>
+    <p>Ole & Steen - worth a visit? Most come to London with a specific aim for the trip… <a href="/Pages/Blog.html">Continue reading Oleha to the New Kid on the Block→</a></p>
     </div>
     
     <div class="w3-third">
-    <img src="/Images/mary_berrys_perfect_34317_16x9.jpeg" alt="Name3" style="width:100%">
+    <a href="/Pages/Blog.html"><img src="/Images/Cinnamon Bun.jpg" alt="To The Rise's Cinnamon Bun" style="width:60%"></a>
+    <p><a href="/Pages/Blog.html">A BUNdle of Joy</a></p>
+    <p>To The Rise's Famous Cinnamon Bun Located on the sunny coastline of Eastbourne, I found myself baking under the heat of the glorious April sun… <a href="/Pages/Blog.html">Continue reading A BUNdle of Joy→</a></p>
     </div>
     
+    </div>
     </div>
 
-    <div class="w3-card" style="width:200px">
-        <img src="/Images/rainbow_cake_20402_16x9.jpeg" style="width:100%">
-        <div class="w3-container w3-center">
-          <p class="w3-xlarge">John Doe</p>
-          <p>Engineer</p>
-        </div>
-      </div>
 
 </body>
 </html>

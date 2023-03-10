@@ -1,0 +1,23 @@
+/* Nav Bar Hover */
+.w3-bar-item.w3-button:hover {
+    background-color: white !important;
+}
+
+/* Header Logo */
+.header-logo {
+    display: block;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header SlideShow */
+.slideshow {
+    padding: 3em;
+}
+
+.slides {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
