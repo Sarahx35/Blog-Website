@@ -10,19 +10,21 @@ body {
 
 /* Header Logo */
 .header-logo {
-    display: block;
-    margin-top: 5em;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 400px;
-    position: relative;
-    margin: auto;
-    padding-top: 3em;
-  }
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  padding-top: 3em;
+}
   
   /* Hide the images by default */
   .mySlides {
@@ -118,6 +120,14 @@ body {
   to {opacity: 1}
 }
 
+/* Gallery */
+.w3-row-padding.w3-padding-16.w3-center {
+  margin-bottom: 3em;
+}
+
+.row-subtext {
+  font-size: 20px;
+}
 
 
 
