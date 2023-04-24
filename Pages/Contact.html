@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/CSS/index.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+  <nav>
+    <!-- Navigation (Sits on top) -->
+  <div class="w3-top w3-bar w3-light-blue w3-padding w3-card w3-wide">
+    <a href="/index.html" class="w3-bar-item w3-button">The Makeup Foodie</a>
+    
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+    <a href="/Pages/Blog.html" class="w3-bar-item w3-button">Blog</a>
+    <a href="/Pages/About.html" class="w3-bar-item w3-button">About</a>
+    <a href="/Pages/Contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    </div>
+  </nav>
+
+      <h1 class="titles1">Contact Us</h1>
+      <h3 class="contact-title">Still have a question? Contact us below:</h3>
+      <div class="contact-form">
+        <form>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Your first name"><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Your last name"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email"><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Message subject"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" type="text" placeholder="Your message to us"></textarea>
+            <input type="submit" value="Submit" onclick="alert('Thanks for your message!\nWe aim to get back to you within 48 hours via email!')">
+        </form>
+      </div>
+
+      <footer>
+      <hr>
+      <p class="footer-copyright-text">&#169; The Makeup Foodie 2023</p>
+    </footer>
+</body>
+</html>
