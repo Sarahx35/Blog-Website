@@ -1,7 +1,9 @@
 body {
   background-color: #EEFFFE;
   font-family: 'Poltawski Nowy', serif;
+  padding-top: 60px;
 }
+
 
 
 /* Nav Bar Hover */
@@ -17,7 +19,7 @@ body {
 /* Header Logo */
 .header-logo {
   display: block;
-  margin-top: 5em;
+  margin-top: 1.5em;
   margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
@@ -144,8 +146,13 @@ margin-bottom: 3em;
 /* CONTACT PAGE */
 
 /* Contact Form Styling */
+.titles1 {
+  margin-left: 2em;
+  padding-top: 0.5em;
+}
+
 .contact-title {
-  margin-left: 3.5em;
+  margin-left: 3em;
 }
 
 .contact-form {
