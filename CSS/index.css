@@ -1,6 +1,6 @@
 body {
   background-color: #EEFFFE;
-  font-family: 'Poltawski Nowy', serif;
+  font-family: 'Poltawski Nowy', serif !important;
   padding-top: 60px;
 }
 
@@ -146,9 +146,23 @@ margin-bottom: 3em;
 /* CONTACT PAGE */
 
 /* Contact Form Styling */
+input {
+  background-color: #eefffe;
+}
+
+#message {
+  background-color: #eefffe;
+
+}
+
 .titles1 {
   margin-left: 2em;
   padding-top: 0.5em;
+  font-family: 'Poltawski Nowy', serif;
+}
+
+.contact-title {
+  font-family: 'Poltawski Nowy', serif;
 }
 
 .contact-title {
@@ -156,7 +170,8 @@ margin-bottom: 3em;
 }
 
 .contact-form {
-  background-color: #d4d4d4f1;
+  border-color: lightblue;
+  background-color: paleturquoise;
   border-radius: 5px;
   padding: 2em;
   margin-left: 4em;
@@ -175,12 +190,12 @@ input[type=text], input[type=email], textarea {
 }
 
 textarea {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poltawski Nowy', serif;
   resize: vertical;
 }
 
 input[type=submit] {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poltawski Nowy', serif;
   background-color: black;
   border-radius: 5px;
   padding: 1.5em;
@@ -200,10 +215,14 @@ input[type=submit]:hover {
 
 
 
+
+
 /* FOOTER */
 
 /*Footer Divider Line*/
-hr {
+
+
+.footer-hr {
   margin-right: 20%;
   margin-left: 20%;
   border: 1px solid black;
