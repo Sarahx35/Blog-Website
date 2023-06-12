@@ -5,7 +5,16 @@ function toggleMobileMenu(menu) {
 }
 
 // Updating the footer year automatically
-const copyrightName = "Acem Inc.";
+const copyrightName = "The Makeup Foodie";
 const copyrightDate = new Date();
-document.write("&copy; " + copyrightName + " " + copyrightDate.getFullYear());
+
+document.getElementById("footer-copyright-text");
+element.innerHTML = "&copy; " + copyrightName + " " + copyrightDate.getFullYear();
+
+
+
+
+
+
+
 
