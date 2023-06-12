@@ -3,8 +3,29 @@ body {
   font-family: 'Poltawski Nowy', serif !important;
 }
 
+p {
+  font-size: 18px;
+}
+
+.underline {
+  border-bottom: 2px solid currentColor;
+  border-bottom-color: lightblue;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
+
 /* NAV BAR STYLING */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+nav {
+  font-size: 18px;
+}
 
 * {
   padding: 0;
@@ -222,6 +243,16 @@ ul li:hover {
 }
 
 
+/* About Me Section */
+.list-row-block {
+  padding: 2em;
+}
+
+.mini-blog-click {
+  padding: 0.5em;
+  border-style: dotted;
+  border-color: lightblue;
+}
 
 
 /* Gallery */
@@ -235,11 +266,13 @@ ul li:hover {
 
 
 
+
+
 /* Contact Form */
 .w3-container.w3-center.w3-padding-32 {
 border-style: solid;
-border-color: lightblue;
-background-color: paleturquoise;
+border-color: #8BC8FF;
+background-color: lightblue;
 margin-left: 10%;
 margin-right: 10%;
 margin-bottom: 3em;
@@ -254,7 +287,7 @@ margin-bottom: 3em;
 /* CONTACT PAGE */
 
 /* Contact Form Styling */
-input {
+.input {
   background-color: #eefffe;
 }
 
@@ -267,25 +300,25 @@ input {
   margin-left: 2em;
   padding-top: 0.5em;
   font-family: 'Poltawski Nowy', serif;
-}
+} 
 
 .contact-title {
   font-family: 'Poltawski Nowy', serif;
-}
+} 
 
 .contact-title {
   margin-left: 3em;
-}
+} 
 
 .contact-form {
-  border-color: lightblue;
-  background-color: paleturquoise;
+  border-color: 8BC8FF;
+  background-color: lightblue;
   border-radius: 5px;
   padding: 2em;
   margin-left: 4em;
   margin-right: 4em;
   margin-bottom: 2em;
-}
+} 
 
 input[type=text], input[type=email], textarea {
   width: 100%;
@@ -295,12 +328,12 @@ input[type=text], input[type=email], textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-}
+} 
 
 textarea {
   font-family: 'Poltawski Nowy', serif;
   resize: vertical;
-}
+} 
 
 input[type=submit] {
   font-family: 'Poltawski Nowy', serif;
@@ -313,12 +346,11 @@ input[type=submit] {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-}
+} 
 
 input[type=submit]:hover {
   background-color: rgb(79, 79, 79);
-}
-
+} 
 
 
 
