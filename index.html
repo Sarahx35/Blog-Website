@@ -10,21 +10,25 @@
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
   <header>
-<nav>
-  <!-- Navigation (Sits on top) -->
-<div class="w3-top w3-bar w3-light-blue w3-padding w3-card w3-wide">
-  <a href="/index.html" class="w3-bar-item w3-button">The Makeup Foodie</a>
-  
-  <!-- Right-sided navbar links. Hide them on small screens -->
-  <div class="w3-right w3-hide-small">
-  <a href="/Pages/Blog.html" class="w3-bar-item w3-button">Blog</a>
-  <a href="/Pages/About.html" class="w3-bar-item w3-button">About</a>
-  <a href="/Pages/Contact.html" class="w3-bar-item w3-button">Contact</a>
-  </div>
-  </div>
-</nav>
-</div>
-</header>
+    <div id="brand"><a href="/">The Makeup Foodie</a></div>
+    <nav>
+      <ul>
+        <li><a href="/Pages/Blog.html">Blog</a></li>
+        <li><a href="/Pages/About.html">About</a></li>
+        <li id="contact"><a href="/Pages/Contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="/Pages/Blog.html">Blog</a></li>
+        <li><a href="/Pages/About.html">About</a></li>
+        <li id="contact"><a href="/Pages/Contact.html" >Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
 
 
@@ -171,5 +175,7 @@ function showSlides() {
         <hr class="footer-hr">
         <p class="footer-copyright-text">&#169; The Makeup Foodie 2023</p>
       </footer>
+
+<script src="index.js"></script>
 </body>
 </html>
