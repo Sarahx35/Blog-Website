@@ -258,6 +258,13 @@ ul li:hover {
   border-color: lightblue;
 }
 
+/*Adding space between boxes on mobile */
+@media only screen and (max-width: 600px) {
+  .mini-blog-click {
+    margin: 1em;
+  }
+}
+
 
 /* Gallery */
 .w3-row-padding.w3-padding-16.w3-center {
