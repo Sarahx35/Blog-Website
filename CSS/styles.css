@@ -1,5 +1,5 @@
 body {
-  background-color: #EEFFFE;
+  background-color: white;
   font-family: 'Poltawski Nowy', serif !important;
 }
 
@@ -327,7 +327,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #EEFFFE;
   padding: 20px;
   margin-top: 20px;
 }
