@@ -28,6 +28,11 @@ figcaption {
   font-size: 1.2em;
 }
 
+figure {
+  margin: 0;
+  padding: 1em;
+}
+
 
 /* NAV BAR STYLING */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -409,15 +414,13 @@ body {
 
 .other-blogs {
   text-align: center;
-  text-decoration: underline;
 }
 
 .other-blogs-gallery {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
 }
 
 .other-blogs-gallery figcaption {
