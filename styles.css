@@ -387,11 +387,19 @@ body {
   margin-bottom: 3em;
 }
 
+.blog-hdr{
+  padding: 0.5em;
+}
+
 .blog-text img {
   max-width: 50em;
 }
 
 .blog-text p {
+  padding: 0.5em;
+}
+
+.blog-text h4 {
   padding: 0.5em;
 }
 
