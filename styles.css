@@ -23,6 +23,11 @@ a {
     -2px -2px white;
 }
 
+figcaption {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
 
 /* NAV BAR STYLING */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
@@ -265,6 +270,20 @@ ul li:hover {
   }
 }
 
+.hdr-img {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.centered-text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.centered-text p {
+  padding: 0.5em;
+}
+
 
 /* Gallery */
 .w3-row-padding.w3-padding-16.w3-center {
@@ -355,8 +374,53 @@ body {
   }
 }
 
+/* INCREDIBLE CAKE COMPANY */
+.blog-post {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 
 
+.blog-text p {
+  padding: 0.5em;
+}
+
+
+
+
+
+
+
+/* END OF INCREDIBLE CAKE COMPANY*/
+.border-box {
+  margin-left: 27%;
+  margin-right: 27%;
+  border: 30px solid #afd6df;
+}
+
+.other-blogs {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.other-blogs-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.other-blogs-gallery figcaption {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.5em;
+}
+
+
+/* END OF BLOG POSTS*/
 
 /* CONTACT PAGE */
 
@@ -445,24 +509,11 @@ input[type=submit]:hover {
 }
 
 
-/* ABOUT ME */
-.hdr-img {
-  width: 100%;
-  padding: 0.5em;
-}
-
-.centered-text {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.centered-text p {
-  padding: 0.5em;
-}
 
 
 
-/* END OF ABOUT ME */
+
+
 
 /* FOOTER */
 
