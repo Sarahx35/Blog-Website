@@ -382,18 +382,25 @@ body {
   margin-bottom: 3em;
 }
 
+.blog-text img {
+  max-width: 50em;
+}
 
 .blog-text p {
   padding: 0.5em;
 }
 
-
-
-
-
-
+@media only screen and (max-width: 1300px) {
+  .blog-post {
+    margin: 0;
+  }
+  .blog-text img {
+    width: 100%;
+  };
+}
 
 /* END OF INCREDIBLE CAKE COMPANY*/
+
 .border-box {
   margin-left: 27%;
   margin-right: 27%;
@@ -418,6 +425,16 @@ body {
   text-align: center;
   padding: 0.5em;
 }
+
+@media only screen and (max-width: 1300px) {
+  .border-box {
+    display: none;
+  }
+}
+
+
+
+
 
 
 /* END OF BLOG POSTS*/
