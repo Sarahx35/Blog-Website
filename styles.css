@@ -365,7 +365,7 @@ body {
   background-color: #eefffe;
 }
 
-#message {
+#message textarea {
   background-color: #eefffe;
 
 }
@@ -407,7 +407,10 @@ input[type=text], input[type=email], textarea {
 textarea {
   font-family: 'Poltawski Nowy', serif;
   resize: vertical;
+
 } 
+
+
 
 input[type=submit] {
   font-family: 'Poltawski Nowy', serif;
@@ -442,6 +445,24 @@ input[type=submit]:hover {
 }
 
 
+/* ABOUT ME */
+.hdr-img {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.centered-text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.centered-text p {
+  padding: 0.5em;
+}
+
+
+
+/* END OF ABOUT ME */
 
 /* FOOTER */
 
@@ -451,6 +472,7 @@ input[type=submit]:hover {
 .footer-hr {
   margin-right: 20%;
   margin-left: 20%;
+  margin-top: 5em;
   border: 1px solid black;
   width: 60%;
 }
