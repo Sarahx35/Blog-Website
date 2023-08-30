@@ -435,7 +435,6 @@ body {
 .rightcolumn {
   float: right;
   width: 25%;
-
 }
 
 /* Add a card effect for articles */
@@ -444,6 +443,15 @@ body {
   margin-top: 20px;
   margin-right: 10%;
   margin-left: 20%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }
 
 
@@ -568,15 +576,34 @@ body {
   margin-left: 3em;
 } 
 
+.form-container {
+  padding-left: 5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .titles1 {
+    padding-bottom: 1em;
+    margin: 0;
+  }
+  .contact-title {
+    margin: 0;
+    padding-bottom: 1em;
+  }
+  .form-container {
+    padding: 0;
+  }
+}
+
 .contact-form {
-  border-color: 8BC8FF;
+  display: block;
+  max-width: 600px;
+  border-color: #8BC8FF;
   background-color: #afd6df;
   border-radius: 5px;
   padding: 2em;
-  margin-left: 4em;
-  margin-right: 4em;
-  margin-bottom: 2em;
 } 
+
+
 
 input[type=text], input[type=email], textarea {
   width: 100%;
