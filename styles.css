@@ -304,6 +304,8 @@ ul li:hover {
   padding-top: 2em;
 }
 
+
+
 #food {
   margin-bottom: 5em;
 }
@@ -350,6 +352,9 @@ ul li:hover {
   font-size: 20px;
 }
 
+.w3-quarter {
+  padding-bottom: 2em !important;
+}
 
 
 
@@ -633,7 +638,9 @@ input[type=submit]:hover {
 /* FOOTER */
 
 /*Footer Divider Line*/
-
+.socials {
+  text-align: center;
+}
 
 .footer-hr {
   margin-right: 20%;
@@ -646,5 +653,5 @@ input[type=submit]:hover {
 
 .footer-copyright-text {
   text-align: center;
-  padding: 0.5em;
+  padding-top: 3em;
 }
