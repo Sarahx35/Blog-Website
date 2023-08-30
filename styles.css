@@ -286,6 +286,14 @@ ul li:hover {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 800px) {
+  .centered-text {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}
+
 .list-row-block {
   padding: 1em;
 }
