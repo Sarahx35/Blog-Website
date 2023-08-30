@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+  <header>
+    <div id="brand"><a href="/">The Makeup Foodie</a></div>
+    <nav>
+      <ul>
+        <li><a href="/pages/blog/blog.html">Blog</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li id="contact"><a href="/pages/contact/contact.html" >Contact</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a href="/pages/blog/blog.html">Blog</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li id="contact"><a href="/pages/contact/contact.html" >Contact</a></li>
+      </ul>
+    </div>
+  </header>
+      <h1 class="titles1">Contact Us</h1>
+      <h3 class="contact-title">Want to know more? Or maybe have a suggestion of where I should visit next? Drop me a note below!</h3>
+      <div class="contact-form">
+        <form>
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Your first name"><br>
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Your last name"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email"><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Message subject"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" type="text" placeholder="Your message to us"></textarea>
+            <button class="w3-button w3-light-blue w3-hover-white" type="submit"><a href="/pages/contact/thank-you-submit.html">Submit</a></button>
+        </form>
+      </div>
+
+      <footer id="footer">
+        <hr class="footer-hr">
+        <p class="footer-copyright-text">&#169; The Makeup Foodie 2023</p>
+      </footer> 
+<script src="/index.js"></script>
+</body>
+</html>
